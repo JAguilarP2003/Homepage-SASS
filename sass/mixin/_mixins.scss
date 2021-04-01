@@ -1,0 +1,36 @@
+@import "../variables/vars";
+
+@mixin navbar {
+    display: $dFlex;
+    justify-content: $alignCenter; 
+}
+
+@mixin navbarHover {
+    background-color: $lightblue;
+    color: $black;
+    transition-duration: $time03s;
+}
+
+@mixin navbarMedia {
+    flex-direction: $flexd-Column;
+    text-align: $alignCenter;
+}
+
+@mixin navbarActive {
+    transform: $trslateY;
+    transition-duration: $time01s;
+}
+
+@mixin button {
+    display: $dInlineBlock;
+    text-decoration: none;
+    color: $white;
+    padding: 20px;
+    border: solid $dodgerblue;
+    transition-duration: $time03s;
+}
+
+@mixin text {
+    text-align: $alignJustify;
+    margin: $txtMarginUpDown $txtMarginSides;
+}

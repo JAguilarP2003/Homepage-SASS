@@ -1,0 +1,6 @@
+@import "../variables/vars";
+@import "../mixin/mixins";
+
+.txt{
+    @include text;
+}
